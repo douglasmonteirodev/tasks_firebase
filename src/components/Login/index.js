@@ -53,6 +53,7 @@ export default function Login({changeStatus}) {
       <TextInput
         placeholder="* * * * * * * * *"
         value={password}
+        secureTextEntry={true}
         onChangeText={value => setPassword(value)}
         style={styles.input}
       />
